@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/go-sqlmock-$1\.tar\.gz/ \
+  https://github.com/DATA-DOG/go-sqlmock/tags .*/v?(\d\S*)\.tar\.gz
